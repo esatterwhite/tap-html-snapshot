@@ -1,0 +1,29 @@
+stages:
+  - test
+  - release
+
+before_script:
+  - touch .npmrc
+  - echo "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc
+  - npm install
+
+test:node6:
+  image: gcr.io/help-1272/node:6
+  stage: test
+  script:
+    - npm test
+
+test:node8:
+  image: gcr.io/help-1272/node:8
+  stage: test
+  script:
+    - npm test
+
+
+release:
+  image: gcr.io/help-1272/node:release8
+  stage: release
+  script:
+    - do-release --publish
+  only:
+    - master

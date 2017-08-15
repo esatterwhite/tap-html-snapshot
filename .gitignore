@@ -1,0 +1,5 @@
+node_modules/
+snapshots/
+coverage/
+.nyc_output/
+*.save
