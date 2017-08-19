@@ -1,5 +1,5 @@
 {
-  "name": "@helpdotcom/tap-snapshot",
+  "name": "@helpdotcom/tap-diff-snapshot",
   "version": "0.1.0",
   "description": "Snapshot and diff assertions for tap",
   "main": "index.js",
@@ -9,6 +9,14 @@
     "lint": "lintit",
     "pretest": "lintit && check-pkg",
     "posttest": "tap --coverage-report=text-summary"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.help.com/common-backend/tap-diff-snapshot"
+  },
+  "homepage":"https://git.help.com/common-backend/tap-diff-snapshot",
+  "bugs": {
+    "url": "https://git.help.com/common-backend/tap-diff-snapshot/issues"
   },
   "keywords": [
     "tap",
