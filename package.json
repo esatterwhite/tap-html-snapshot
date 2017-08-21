@@ -1,6 +1,6 @@
 {
   "name": "@helpdotcom/tap-diff-snapshot",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Snapshot and diff assertions for tap",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "https://git.help.com/common-backend/tap-diff-snapshot"
   },
-  "homepage":"https://git.help.com/common-backend/tap-diff-snapshot",
+  "homepage": "https://git.help.com/common-backend/tap-diff-snapshot",
   "bugs": {
     "url": "https://git.help.com/common-backend/tap-diff-snapshot/issues"
   },
