@@ -29,7 +29,8 @@
   "dependencies": {
     "ansi-styles": "^3.2.0",
     "diff": "^3.3.0",
-    "mkdirp": "^0.5.1"
+    "mkdirp": "^0.5.1",
+    "webshot": "^0.18.0"
   },
   "devDependencies": {
     "check-pkg": "^2.0.2",
